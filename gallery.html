@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sushminna Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+			<nav class="navbar">
+				<img class="logo" src="logo.png">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a class="active" href="gallery.html">Gallery</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+				</ul>
+			</nav>
+			<div class="gallery">
+<div class="row">
+  <div class="column">
+    <img src="a.jpg" alt="food " onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="b.jpg" alt="food2" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="c.jpg" alt="food 3" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="i.jpg" alt="food4" onclick="myFunction(this);">
+</div>
+ <div class="column">
+    <img src="e.jpg" alt="food5" onclick="myFunction(this);">
+  </div>
+ <div class="column">
+    <img src="f.jpg" alt="food6" onclick="myFunction(this);">
+  </div>
+ <div class="column">
+    <img src="g.jpg" alt="food7" onclick="myFunction(this);">
+  </div>
+ <div class="column">
+    <img src="h.jpg" alt="food8" onclick="myFunction(this);">
+  </div>
+ <div class="column">
+    <img src="d.jpg" alt="food9" onclick="myFunction(this);">
+  </div>
+  
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+
+</div>
+</body>
+</html>
